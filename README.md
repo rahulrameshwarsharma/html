@@ -7,6 +7,12 @@
 - [Google: Developer.google.com](https://developers.google.com/apps-script/guides/html).
 
 ### Alternatives of HTML languages
+## Documentation
+**Reading from documentation makes you a better developer**
+- [MDN: developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML).
+- [Google: Developer.google.com](https://developers.google.com/apps-script/guides/html).
+
+### Alternatives of HTML languages
 - *markdown*, *latex* etc... are also mark up languages which can be used as an alternative of HTML but html is the most supported language in the browser, so we use html in general.
 
 ### Attributes:
