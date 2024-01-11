@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <div>
+        <!-- <img src="sample.avif" width="500px" alt="no image"><hr /> -->
+
+        <h1>Click on the glass, and I will tell you which glass is it</h1>
+        <!-- An image map generator -->
+        <img src="sample.avif" usemap="#image-map">
+
+        <map name="image-map">
+            <area onclick="one()" target="" alt="" title="" href="" coords="83,278,31,130" shape="rect">
+            <area onclick="two()" target="" alt="" title="" href="" coords="95,184,149,278" shape="rect">
+            <area onclick="three()" target="" alt="" title="" href="" coords="162,162,229,277" shape="rect">
+            <area onclick="four()" target="" alt="" title="" href="" coords="259,175,317,276" shape="rect">
+            <area onclick="five()" target="" alt="" title="" href="" coords="321,132,379,282" shape="rect">
+            <area onclick="six()" target="" alt="" title="" href="" coords="391,190,451,275" shape="rect">
+        </map>
+    </div>
+    <script>
+        function one() {
+            alert("you clicked on glass 1, from left to right")
+        }
+        function two() {
+            alert("you clicked on glass 2, from left to right")
+        }
+        function three() {
+            alert("you clicked on glass 3, from left to right")
+        }
+        function four() {
+            alert("you clicked on glass 4, from left to right")
+        }
+        function five() {
+            alert("you clicked on glass 5, from left to right")
+        }
+        function six() {
+            alert("you clicked on glass 6, from left to right")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+}
+
+body {
+    background-color: rgba(65, 65, 65, 0.75);
+}
+
+header {
+    height: 4rem;
+    width: 100vw;
+    margin-bottom: 20px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.linktags {
+    height: 4rem;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-around;
+}
